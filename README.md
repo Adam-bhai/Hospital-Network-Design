@@ -4,7 +4,7 @@ Hospital Network Design
 
 ## Abstract
 
-This report describes the network design of Health care management or Hospital. In this network topology the nodes (i.e., computers, switches, routers or other devices) are connected to a local area network (LAN) and network via links (twisted pair copper wire cable or optical fiber cable). We have used Cisco Packet Tracer for designing the network topology It’s a general design which can be implemented at any higher level to manage network system.
+This report describes the network design of Health care management or Hospital. In this network topology the nodes (i.e., computers, switches, routers or other devices) are connected to a local area network (LAN) and network via links (twisted pair copper wire cable or optical fiber cable). We have used Cisco Packet Tracer for designing the network topology Itï¿½s a general design which can be implemented at any higher level to manage network system.
 
 
 ## Network Requirements
@@ -28,21 +28,21 @@ In Health care Network topology, we have desktop Computer, laptops, smart phone.
 
 ## Features and Services
 
-•	DHCP
+ï¿½	DHCP
 
-•	DNS
+ï¿½	DNS
 
-•	Subnetting
+ï¿½	Subnetting
 
-•	HTTPS
+ï¿½	HTTPS
 
-•	SSH
+ï¿½	SSH
 
-•	SMTP
+ï¿½	SMTP
 
-•	FTP
+ï¿½	FTP
 
-•	WIFI
+ï¿½	WIFI
 
 
 ## Network Topology
@@ -56,4 +56,4 @@ This report describes how we have designed network topology of hospital (Health 
 
 ## Authors
 
-* **Sooraj Kumar** 
+* **Adam sha** 
