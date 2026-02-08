@@ -1,107 +1,59 @@
-# Hospital System Network Design
+# Title
 
-## Table of Contents
-1. [Abstract](#abstract)
-2. [Introduction](#introduction)
-3. [Problem Statement](#problem-statement)
-4. [Project Goal](#project-goal)
-5. [Proposed Methodology](#proposed-methodology)
-6. [Project Milestones](#project-milestones)
-7. [Expected Outcome](#expected-outcome)
-8. [Conclusion](#conclusion)
-
----
+Hospital Network Design
 
 ## Abstract
-In response to the evolving healthcare landscape, this project aims to design and implement a robust network infrastructure for Melbourne Health Services using Cisco Packet Tracer. The focus is on enhancing security, operational efficiency, and cost-effectiveness.
 
----
-
-## Introduction
-Melbourne Health Services operates across multiple locations, necessitating a secure and efficient network infrastructure. The project proposes the design and implementation of a hierarchical network model using Cisco Packet Tracer to meet these needs.
-
----
-
-## Problem Statement
-Current reliance on third-party IT services poses challenges related to cost efficiency and data security. Internalizing network infrastructure control is crucial for ensuring data confidentiality, integrity, and availability.
-
----
-
-## Project Goal
-To establish a resilient and cost-effective network infrastructure for Melbourne Health Services through the deployment of a hierarchical network model using Cisco Packet Tracer.
-
----
-
-## Proposed Methodology
-### Hierarchical Network Design:
-- Utilize Core Routers, Multilayer Switches, and Access Switches.
-- Implement redundancy strategies for enhanced reliability.
-
-### VLANs and Subnetting:
-- Allocate VLANs and subnets for departmental segregation.
-- Apply VLAN configurations for secure traffic management.
-
-### Security Measures:
-- Configure Access Control Lists (ACLs) for user access control.
-- Implement Virtual Private Network (VPN) solutions for secure communication.
-- Enforce port-security measures to restrict unauthorized access.
-
-### Routing Protocol (OSPF):
-- Deploy OSPF for dynamic routing and efficient data transmission.
-
-### DHCP Configuration:
-- Set up DHCP servers for IP address management.
-- Allocate static IPs for stability within the network.
-
-### Monitoring and Testing:
-- Integrate network monitoring tools for performance optimization.
-- Conduct comprehensive testing to validate network functionality.
-
----
-
-## Project Milestones
-1. **Network Design and Topology Implementation**
-   - Develop a detailed network topology.
-   - Configure Core Routers, Multilayer Switches, and Access Switches.
-
-2. **VLANs and Subnetting Configuration**
-   - Plan VLAN allocation and implement configurations.
-
-3. **Security Measures Implementation**
-   - Configure ACLs, VPN solutions, and port-security measures.
-
-4. **Routing Protocol Configuration (OSPF)**
-   - Deploy OSPF and ensure route advertisement.
-
-5. **DHCP Server Setup and Testing**
-   - Establish DHCP servers and validate IP allocation.
-
-6. **Network Monitoring Tool Implementation**
-   - Deploy monitoring tools for real-time performance tracking.
-
----
-
-## Expected Outcome
-- Enhanced security with improved data confidentiality, integrity, and availability.
-- Cost-efficiency through reduced dependency on external IT services.
-- Operational efficiency with streamlined communication and dynamic IP allocation.
-- Increased reliability with a resilient hierarchical network design.
-
----
-
-## Conclusion
-The proposed network redesign for Melbourne Health Services aims to enhance security, operational efficiency, and cost-effectiveness. By implementing a hierarchical network model using Cisco Packet Tracer, the project ensures scalability, reliability, and adherence to industry standards.
-
----
-
-## Contributing
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
-## Contact
-For any questions or suggestions, please contact [usmanazulfiqar2001@gmail.com](mailto:usmanazulfiqar2001@gmail.com).
+This report describes the network design of Health care management or Hospital. In this network topology the nodes (i.e., computers, switches, routers or other devices) are connected to a local area network (LAN) and network via links (twisted pair copper wire cable or optical fiber cable). We have used Cisco Packet Tracer for designing the network topology It’s a general design which can be implemented at any higher level to manage network system.
 
 
+## Network Requirements
+
+In Health care Network topology, we have desktop Computer, laptops, smart phone. There is a data flow between the devices within the system. We have divided our network into segments like for Hospital wards , clinical area etc. We have also used SSH for security. Our network requirements include network devices like routers, switches, server.
+
+## Hospital segments
+
+1	General ward
+
+2	Private ward
+
+3	Clinical Area
+
+4	IT Department
+
+5	Entrance Reception
+
+6	Lobby, Parking , Cafeteria
+ 
+
+## Features and Services
+
+•	DHCP
+
+•	DNS
+
+•	Subnetting
+
+•	HTTPS
+
+•	SSH
+
+•	SMTP
+
+•	FTP
+
+•	WIFI
+
+
+## Network Topology
+
+The diagram is properly commented. We have divided the diagram into 5 small segments as named in part 4. Hospital Segments representing different departments of hospital. We have mentioned the IP addresses on each and every interface of the hosts and routers, ranges of each segment are clearly commented
+
+## Summary
+
+This report describes how we have designed network topology of hospital (Health care Management System).With VLSM for Subnetting, segmented the diagram into 5 segments. This topology can also be implemented on higher level of hospitals.
+
+
+## Authors
+
+* **Sooraj Kumar** 
